@@ -6,7 +6,7 @@ class CustomColors {
   static const Color background = Colors.white;
   static const Color backgroundAccent = Color.fromARGB(255, 220, 220, 220);
   static const Color accent = Colors.blue;
-  static const Color buttonDisabled = Color.fromARGB(255, 180, 180, 180);
+  static const Color buttonDisabled = backgroundAccent; //Color.fromARGB(255, 180, 180, 180);
 
   static const Color searchbar = Color.fromARGB(255, 237, 237, 237);
   static const Color hint = Color.fromARGB(255, 150, 150, 150);

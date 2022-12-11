@@ -10,7 +10,7 @@ class BackgroundBalls extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
       children: List.generate(
-        30,
+        15,
         (index) => const BackgroundBall(),
       ),
     );
@@ -73,10 +73,10 @@ class _BackgroundBallState extends State<BackgroundBall> with TickerProviderStat
       child: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: CustomColors.accent.withAlpha(56),
+          color: CustomColors.accent.withAlpha(36),
         ),
-        width: 40.0,
-        height: 40.0,
+        width: 80.0,
+        height: 80.0,
       ),
     );
   }
